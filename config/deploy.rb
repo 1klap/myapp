@@ -2,10 +2,7 @@
 lock "~> 3.11.1"
 
 set :application, "myapp"
-set :repo_url, "https://github.com/1klap/myapp.git"
-set :git_http_username, 'kim.laplume@protonmail.com'
-set :git_http_password, 'Leeph4github#9oxo'
-
+set :repo_url, "git@github.com/1klap/myapp.git"
 # ---
 
 # Deploy to the user's home directory
